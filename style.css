@@ -1,0 +1,133 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 5px solid #00c6ad;
+  width: 300px;
+  height: 570px;
+  border-radius: 25px;
+}
+
+.header {
+  font-size: 20px;
+  margin: 20px 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-weight: 600;
+}
+.header span:last-child {
+  color: transparent;
+}
+
+.music-main {
+  display: flex;
+  width: 100%;
+  margin-left: 50px;
+}
+.music-main__text {
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.music-main__text div {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.music-main div:first-child {
+  background-color: #ffbd11;
+  color: transparent;
+  width: 90px;
+  height: 90px;
+  margin-right: 10px;
+  border: 3px solid black;
+  border-radius: 25px;
+}
+.music-play {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.music-play__btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  border: 2px solid black;
+  border-bottom-width: 5px;
+  border-radius: 10px;
+}
+.music-play__btn i {
+  margin-right: 5px;
+}
+
+.music-play__btn1 {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #2d2b2e;
+  border-bottom-width: 5px;
+  border-radius: 50%;
+}
+
+.music-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  padding-left: 0px;
+}
+.music-list li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.music-list__color {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border: 3px solid #2d2b2e;
+  border-radius: 15px;
+  background-color: #f85a2a;
+  color: transparent;
+}
+.music-list__box {
+  display: flex;
+  flex-direction: column;
+}
+
+.music-list__box span {
+  margin: 3px 0;
+  font-weight: 400;
+}
+.music-list__box span:last-child {
+  font-size: 10px;
+  color: #c3c5ca;
+}
+.pink {
+  background-color: #ff89bb;
+}
+.blue {
+  background-color: #1947e5;
+}
+.green {
+  background-color: #00c6ad;
+}
